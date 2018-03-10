@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jboss-deployment-structure>
+	<deployment>
+		<dependencies>
+			<module name="org.hibernate" />
+			<module name="org.hibernate.envers" />
+			<module name="org.hibernate.validator" />
+		</dependencies>
+		<resources>
+			<resource-root path="hibernate-core-4.0.1.Final.jar"/>
+			<resource-root path="hibernate-commons-annotations-4.0.1.Final.jar"/>
+			<resource-root path="hibernate-entitymanager-4.0.1.Final.jar"/>
+			<resource-root path="hibernate-infinispan-4.0.1.Final.jar"/>
+			<resource-root path="hibernate-envers-4.0.1.Final.jar"/>
+			<resource-root path="hibernate-validator-4.2.0.Final.jar"/>
+		</resources>
+	</deployment>
+</jboss-deployment-structure>

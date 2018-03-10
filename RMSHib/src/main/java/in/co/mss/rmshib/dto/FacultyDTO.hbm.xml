@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 12 May, 2016 6:09:51 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping package="in.co.mss.rmshib.dto">
+	<class name="FacultyDTO" table="faculty">
+		<id name="id" column="ID">
+			<generator class="increment"></generator>
+		</id>
+		<property name="collegeId" type="long">
+			<column name="COLLEGE_ID" />
+		</property>
+		<property name="collegeName" type="java.lang.String">
+			<column name="COLLEGE_NAME" />
+		</property>
+		<property name="courseId" type="long">
+			<column name="COURSE_ID" />
+		</property>
+		<property name="courseName" type="java.lang.String">
+			<column name="COURSE_NAME" />
+		</property>
+		<property name="firstName" type="java.lang.String">
+			<column name="FIRST_NAME" />
+		</property>
+		<property name="lastName" type="java.lang.String">
+			<column name="LAST_NAME" />
+		</property>
+		<property name="dob" type="java.util.Date">
+			<column name="DOB" />
+		</property>
+		<property name="qualification" type="java.lang.String">
+			<column name="QUALIFICATION" />
+		</property>
+		<property name="email" type="java.lang.String">
+			<column name="EMAIL" />
+		</property>
+		<property name="mobileNo" type="java.lang.String">
+			<column name="MOBILENO" />
+		</property>
+		<property name="address" type="java.lang.String">
+			<column name="ADDRESS" />
+		</property>
+		<property name="primarySubject" type="java.lang.String">
+			<column name="PRIMARY_SUBJECT" />
+		</property>
+		<property name="secondarySubject" type="java.lang.String">
+			<column name="SECONDARY_SUBJECT" />
+		</property>
+
+		<property name="createdBy" type="java.lang.String">
+			<column name="CREATED_BY" />
+		</property>
+		<property name="modifiedBy" type="java.lang.String">
+			<column name="MODIFIED_BY" />
+		</property>
+		<property name="createdDatetime" type="timestamp">
+			<column name="CREATED_DATETIME" />
+		</property>
+		<property name="modifiedDatetime" type="timestamp">
+			<column name="MODIFIED_DATETIME" />
+		</property>
+	</class>
+</hibernate-mapping>

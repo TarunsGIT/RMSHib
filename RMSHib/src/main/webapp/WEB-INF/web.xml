@@ -1,0 +1,288 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>ORSProject3</display-name>
+
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app> 
+
+<!--   <servlet>
+  	<servlet-name>ErrorCtl</servlet-name>
+  	<display-name>ErrorCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.ErrorCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ErrorCtl</servlet-name>
+  	<url-pattern>/ErrorCtl</url-pattern>
+  </servlet-mapping>
+ -->
+
+
+
+<!--   <servlet>
+  	<servlet-name>FrontController</servlet-name>
+  	<display-name>FrontController</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.FrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FrontController</servlet-name>
+  	<url-pattern>/FrontController</url-pattern>
+  </servlet-mapping>
+ -->
+
+
+<!--   <servlet>
+  	<servlet-name>TimeTableCtl</servlet-name>
+  	<display-name>TimeTableCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.TimeTableCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TimeTableListCtl</servlet-name>
+  	<display-name>TimeTableListCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.TimeTableListCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TimeTableCtl</servlet-name>
+  	<url-pattern>/TimeTableCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TimeTableListCtl</servlet-name>
+  	<url-pattern>/TimeTableListCtl</url-pattern>
+  </servlet-mapping>
+   -->
+  
+<!--   <servlet>
+  	<servlet-name>FacultyCtl</servlet-name>
+  	<display-name>FacultyCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.FacultyCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FacultyListCtl</servlet-name>
+  	<display-name>FacultyListCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.FacultyListCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>FacultyCtl</servlet-name>
+  	<url-pattern>/FacultyCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FacultyListCtl</servlet-name>
+  	<url-pattern>/FacultyListCtl</url-pattern>
+  </servlet-mapping> -->
+
+
+
+<!--   <servlet>
+  	<servlet-name>CourseCtl</servlet-name>
+  	<display-name>CourseCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.CourseCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CourseListCtl</servlet-name>
+  	<display-name>CourseListCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.CourseListCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CourseCtl</servlet-name>
+  	<url-pattern>/CourseCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CourseListCtl</servlet-name>
+  	<url-pattern>/CourseListCtl</url-pattern>
+  </servlet-mapping>
+ -->
+
+
+  <!-- <servlet>
+  	<servlet-name>GetMarksheetCtl</servlet-name>
+  	<display-name>GetMarksheetCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.GetMarksheetCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetMarksheetCtl</servlet-name>
+  	<url-pattern>/GetMarksheetCtl</url-pattern>
+  </servlet-mapping> -->
+
+
+<!--   <servlet>
+  	<servlet-name>MarksheetCtl</servlet-name>
+  	<display-name>MarksheetCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.MarksheetCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MarksheetListCtl</servlet-name>
+  	<display-name>MarksheetListCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.MarksheetListCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MarksheetMeritListCtl</servlet-name>
+  	<display-name>MarksheetMeritListCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.MarksheetMeritListCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MarksheetCtl</servlet-name>
+  	<url-pattern>/MarksheetCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MarksheetListCtl</servlet-name>
+  	<url-pattern>/MarksheetListCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MarksheetMeritListCtl</servlet-name>
+  	<url-pattern>/MarksheetMeritListCtl</url-pattern>
+  </servlet-mapping> -->
+
+
+
+
+<!--   <servlet>
+  	<servlet-name>CollegeCtl</servlet-name>
+  	<display-name>CollegeCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.CollegeCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CollegeListCtl</servlet-name>
+  	<display-name>CollegeListCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.CollegeListCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CollegeCtl</servlet-name>
+  	<url-pattern>/CollegeCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CollegeListCtl</servlet-name>
+  	<url-pattern>/CollegeListCtl</url-pattern>
+  </servlet-mapping>
+ -->
+
+
+
+<!--   <servlet>
+  	<servlet-name>StudentCtl</servlet-name>
+  	<display-name>StudentCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.StudentCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StudentListCtl</servlet-name>
+  	<display-name>StudentListCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.StudentListCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StudentCtl</servlet-name>
+  	<url-pattern>/StudentCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>StudentListCtl</servlet-name>
+  	<url-pattern>/StudentListCtl</url-pattern>
+  </servlet-mapping> -->
+
+
+
+
+<!--   <servlet>
+  	<servlet-name>RoleCtl</servlet-name>
+  	<display-name>RoleCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.RoleCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RoleListCtl</servlet-name>
+  	<display-name>RoleListCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.RoleListCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RoleCtl</servlet-name>
+  	<url-pattern>/RoleCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RoleListCtl</servlet-name>
+  	<url-pattern>/RoleListCtl</url-pattern>
+  </servlet-mapping> -->
+  
+
+
+
+<!--   <servlet>
+  	<servlet-name>UserCtl</servlet-name>
+  	<display-name>UserCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.UserCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MyProfileCtl</servlet-name>
+  	<display-name>MyProfileCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.MyProfileCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserListCtl</servlet-name>
+  	<display-name>UserListCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.UserListCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangePasswordCtl</servlet-name>
+  	<display-name>ChangePasswordCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.ChangePasswordCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserCtl</servlet-name>
+  	<url-pattern>/UserCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MyProfileCtl</servlet-name>
+  	<url-pattern>/MyProfileCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserListCtl</servlet-name>
+  	<url-pattern>/UserListCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangePasswordCtl</servlet-name>
+  	<url-pattern>/ChangePasswordCtl</url-pattern>
+  </servlet-mapping>
+   -->
+
+
+<!--   <servlet>
+  	<servlet-name>UserRegistrationCtl</servlet-name>
+  	<display-name>UserRegistrationCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.UserRegistrationCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgetPasswordCtl</servlet-name>
+  	<display-name>ForgetPasswordCtl</display-name>
+  	<description></description>
+  	<servlet-class>in.co.mss.rmshib.controller.ForgetPasswordCtl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserRegistrationCtl</servlet-name>
+  	<url-pattern>/UserRegistrationCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForgetPasswordCtl</servlet-name>
+  	<url-pattern>/ForgetPasswordCtl</url-pattern>
+  </servlet-mapping> -->
